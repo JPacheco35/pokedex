@@ -1,0 +1,18 @@
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Python
+api/__pycache__/
+api/*.pyc
+api/.env
+api/venv/
+
+# Node
+client/node_modules/
+client/.next/
+client/.env.local
+
+# OS
+.DS_Store
