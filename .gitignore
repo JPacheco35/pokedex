@@ -16,3 +16,5 @@ client/.env.local
 
 # OS
 .DS_Store
+!/.env.example
+/PLANNING.md
