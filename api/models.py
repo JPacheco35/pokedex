@@ -93,7 +93,7 @@ class Move(Base):
 
 # pokemon ability model
 class Ability(Base):
-    tablename = 'ability'
+    __tablename__ = 'ability'
 
     id = Column(Integer, primary_key=True)
     name = Column(String, unique=True, index=True)
