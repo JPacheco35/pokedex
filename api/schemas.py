@@ -43,7 +43,6 @@ class PokemonListResponse(BaseModel):
 class PokemonDetailResponse(BaseModel):
     id: int
     name: str
-    species_name: str
     generation: int
 
     height: Optional[float] = None
@@ -53,8 +52,8 @@ class PokemonDetailResponse(BaseModel):
     hp: int
     attack: int
     defense: int
-    sp_attack: int
-    sp_defense: int
+    special_attack: int
+    special_defense: int
     speed: int
 
     cries: Optional[List[str]] = None

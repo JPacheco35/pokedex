@@ -32,7 +32,6 @@ class Pokemon(Base):
     # basic info
     id = Column(Integer, primary_key=True)
     name = Column(String, unique=True, index=True)
-    species_name = Column(String)
     generation = Column(Integer, index=True)
 
     # physical properties
@@ -44,8 +43,8 @@ class Pokemon(Base):
     hp = Column(Integer, index=True)
     attack = Column(Integer, index=True)
     defense = Column(Integer, index=True)
-    sp_attack = Column(Integer, index=True)
-    sp_defense = Column(Integer, index=True)
+    special_attack = Column(Integer, index=True)
+    special_defense = Column(Integer, index=True)
     speed = Column(Integer, index=True)
 
     # assets
@@ -70,9 +69,13 @@ class Type(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String, unique=True, index=True)
 
-    # type matchups
-    weaknesses = Column(JSON)
-    strengths = Column(JSON)
+    # type matchups - damage relationships
+    double_damage_to = Column(JSON)          # Types this does 2x damage to
+    double_damage_from = Column(JSON)        # Types that do 2x damage to this
+    half_damage_to = Column(JSON)            # Types this does 0.5x damage to
+    half_damage_from = Column(JSON)          # Types that do 0.5x damage to this
+    no_damage_to = Column(JSON)              # Types immune to this type's moves
+    no_damage_from = Column(JSON)            # Types immune to attacks of this type
 
 
 # pokemon move model

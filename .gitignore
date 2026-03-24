@@ -18,3 +18,4 @@ client/.env.local
 .DS_Store
 !/.env.example
 /PLANNING.md
+/api/.env.example

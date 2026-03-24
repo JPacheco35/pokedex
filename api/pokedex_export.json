@@ -1,0 +1,1466 @@
+{
+  "metadata": {
+    "total_pokemon": 3,
+    "total_types": 2,
+    "total_moves": 100,
+    "total_abilities": 2
+  },
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "generation": 1,
+      "height": 7.0,
+      "weight": 69.0,
+      "base_experience": 64,
+      "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "special_attack": 65,
+        "special_defense": 65,
+        "speed": 45
+      },
+      "sprites": {
+        "gen-1": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/1.png",
+          "shiny": null
+        },
+        "gen-2": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/1.png"
+        },
+        "gen-3": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/1.png"
+        },
+        "gen-4": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/1.png"
+        },
+        "gen-5": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/1.png"
+        },
+        "gen-6": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/1.png"
+        },
+        "gen-7": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/1.png"
+        },
+        "gen-8": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/1.png",
+          "shiny": null
+        },
+        "gen-9": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/1.png",
+          "shiny": null
+        },
+        "home": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/1.png"
+        }
+      },
+      "cries": [
+        "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1.ogg"
+      ],
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "moves": [
+        "return",
+        "string-shot",
+        "venoshock",
+        "grass-whistle",
+        "leaf-storm",
+        "growth",
+        "body-slam",
+        "protect",
+        "mega-drain",
+        "synthesis",
+        "captivate",
+        "toxic",
+        "sludge",
+        "grassy-glide",
+        "hidden-power",
+        "poison-powder",
+        "strength",
+        "curse",
+        "double-team",
+        "echoed-voice",
+        "skull-bash",
+        "grass-knot",
+        "knock-off",
+        "leech-seed",
+        "amnesia",
+        "sleep-powder",
+        "outrage",
+        "sunny-day",
+        "defense-curl",
+        "snore",
+        "tera-blast",
+        "magical-leaf",
+        "confide",
+        "sweet-scent",
+        "power-whip",
+        "charm",
+        "growl",
+        "cut",
+        "endure",
+        "ingrain",
+        "razor-wind",
+        "acid-spray",
+        "trailblaze",
+        "substitute",
+        "weather-ball",
+        "bide",
+        "seed-bomb",
+        "giga-drain",
+        "facade",
+        "nature-power",
+        "swords-dance",
+        "worry-seed",
+        "secret-power",
+        "swagger",
+        "petal-dance",
+        "work-up",
+        "headbutt",
+        "false-swipe",
+        "attract",
+        "round",
+        "take-down",
+        "razor-leaf",
+        "reflect",
+        "frustration",
+        "grassy-terrain",
+        "energy-ball",
+        "grass-pledge",
+        "double-edge",
+        "mud-slap",
+        "bind",
+        "rock-smash",
+        "sleep-talk",
+        "natural-gift",
+        "fury-cutter",
+        "flash",
+        "vine-whip",
+        "solar-beam",
+        "rest",
+        "light-screen",
+        "rage",
+        "bullet-seed",
+        "tackle",
+        "sludge-bomb",
+        "helping-hand",
+        "safeguard",
+        "mimic"
+      ],
+      "abilities": [
+        "overgrow",
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "generation": 1,
+      "height": 10.0,
+      "weight": 130.0,
+      "base_experience": 142,
+      "stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "special_attack": 80,
+        "special_defense": 80,
+        "speed": 60
+      },
+      "sprites": {
+        "gen-1": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/2.png",
+          "shiny": null
+        },
+        "gen-2": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/2.png"
+        },
+        "gen-3": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/2.png"
+        },
+        "gen-4": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/2.png"
+        },
+        "gen-5": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/2.png"
+        },
+        "gen-6": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/2.png"
+        },
+        "gen-7": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/2.png"
+        },
+        "gen-8": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/2.png",
+          "shiny": null
+        },
+        "gen-9": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/2.png",
+          "shiny": null
+        },
+        "home": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/2.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/2.png"
+        }
+      },
+      "cries": [
+        "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/2.ogg"
+      ],
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "moves": [
+        "outrage",
+        "energy-ball",
+        "leaf-storm",
+        "giga-drain",
+        "power-whip",
+        "captivate",
+        "swords-dance",
+        "toxic",
+        "grass-knot",
+        "round",
+        "venoshock",
+        "acid-spray",
+        "petal-dance",
+        "double-team",
+        "endure",
+        "defense-curl",
+        "cut",
+        "light-screen",
+        "bind",
+        "vine-whip",
+        "reflect",
+        "string-shot",
+        "headbutt",
+        "bide",
+        "tackle",
+        "amnesia",
+        "body-slam",
+        "sleep-powder",
+        "flash",
+        "take-down",
+        "rest",
+        "double-edge",
+        "substitute",
+        "growl",
+        "snore",
+        "grass-pledge",
+        "charm",
+        "curse",
+        "false-swipe",
+        "protect",
+        "swagger",
+        "sludge-bomb",
+        "mimic",
+        "fury-cutter",
+        "grassy-glide",
+        "mud-slap",
+        "attract",
+        "tera-blast",
+        "echoed-voice",
+        "sleep-talk",
+        "trailblaze",
+        "return",
+        "rage",
+        "frustration",
+        "confide",
+        "safeguard",
+        "grassy-terrain",
+        "sweet-scent",
+        "poison-powder",
+        "work-up",
+        "synthesis",
+        "roar",
+        "hidden-power",
+        "sunny-day",
+        "rock-smash",
+        "facade",
+        "nature-power",
+        "helping-hand",
+        "ingrain",
+        "knock-off",
+        "strength",
+        "secret-power",
+        "mega-drain",
+        "weather-ball",
+        "leech-seed",
+        "bullet-seed",
+        "growth",
+        "magical-leaf",
+        "razor-leaf",
+        "natural-gift",
+        "seed-bomb",
+        "solar-beam",
+        "worry-seed"
+      ],
+      "abilities": [
+        "overgrow",
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "generation": 1,
+      "height": 20.0,
+      "weight": 1000.0,
+      "base_experience": 236,
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "special_attack": 100,
+        "special_defense": 100,
+        "speed": 80
+      },
+      "sprites": {
+        "gen-1": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/3.png",
+          "shiny": null
+        },
+        "gen-2": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/3.png"
+        },
+        "gen-3": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/shiny/3.png"
+        },
+        "gen-4": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/3.png"
+        },
+        "gen-5": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/3.png"
+        },
+        "gen-6": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/3.png"
+        },
+        "gen-7": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/3.png"
+        },
+        "gen-8": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/3.png",
+          "shiny": null
+        },
+        "gen-9": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/3.png",
+          "shiny": null
+        },
+        "home": {
+          "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/3.png",
+          "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/3.png"
+        }
+      },
+      "cries": [
+        "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/3.ogg"
+      ],
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "moves": [
+        "earth-power",
+        "rest",
+        "terrain-pulse",
+        "scary-face",
+        "earthquake",
+        "confide",
+        "double-edge",
+        "natural-gift",
+        "leaf-storm",
+        "bind",
+        "power-whip",
+        "sludge-bomb",
+        "captivate",
+        "razor-leaf",
+        "grassy-terrain",
+        "false-swipe",
+        "snore",
+        "tackle",
+        "flash",
+        "sleep-powder",
+        "hyper-beam",
+        "bide",
+        "knock-off",
+        "grass-knot",
+        "poison-jab",
+        "helping-hand",
+        "venoshock",
+        "acid-spray",
+        "weather-ball",
+        "ingrain",
+        "round",
+        "petal-dance",
+        "protect",
+        "solar-beam",
+        "echoed-voice",
+        "grass-pledge",
+        "toxic",
+        "growth",
+        "grassy-glide",
+        "rock-climb",
+        "rage",
+        "giga-impact",
+        "petal-blizzard",
+        "work-up",
+        "endure",
+        "secret-power",
+        "take-down",
+        "strength",
+        "reflect",
+        "sleep-talk",
+        "giga-drain",
+        "sunny-day",
+        "seed-bomb",
+        "light-screen",
+        "substitute",
+        "rock-smash",
+        "mimic",
+        "frenzy-plant",
+        "charm",
+        "energy-ball",
+        "growl",
+        "mud-slap",
+        "return",
+        "synthesis",
+        "stomping-tantrum",
+        "swagger",
+        "leech-seed",
+        "curse",
+        "bulldoze",
+        "outrage",
+        "body-slam",
+        "mega-drain",
+        "magical-leaf",
+        "bullet-seed",
+        "hidden-power",
+        "attract",
+        "worry-seed",
+        "facade",
+        "block",
+        "fury-cutter",
+        "swords-dance",
+        "nature-power",
+        "headbutt",
+        "sweet-scent",
+        "amnesia",
+        "safeguard",
+        "vine-whip",
+        "double-team",
+        "frustration",
+        "trailblaze",
+        "cut",
+        "tera-blast",
+        "roar",
+        "string-shot",
+        "poison-powder",
+        "defense-curl"
+      ],
+      "abilities": [
+        "overgrow",
+        "chlorophyll"
+      ]
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "grass",
+      "double_damage_to": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "double_damage_from": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "half_damage_to": [
+        "flying",
+        "poison",
+        "bug",
+        "steel",
+        "fire",
+        "grass",
+        "dragon"
+      ],
+      "half_damage_from": [
+        "ground",
+        "water",
+        "grass",
+        "electric"
+      ],
+      "no_damage_to": [],
+      "no_damage_from": []
+    },
+    {
+      "id": 2,
+      "name": "poison",
+      "double_damage_to": [
+        "grass",
+        "fairy"
+      ],
+      "double_damage_from": [
+        "ground",
+        "psychic"
+      ],
+      "half_damage_to": [
+        "poison",
+        "ground",
+        "rock",
+        "ghost"
+      ],
+      "half_damage_from": [
+        "fighting",
+        "poison",
+        "bug",
+        "grass",
+        "fairy"
+      ],
+      "no_damage_to": [
+        "steel"
+      ],
+      "no_damage_from": []
+    }
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "name": "razor-wind",
+      "description": "Inflicts regular damage.  User\u2019s critical hit rate is one level higher when using this move.  User charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk.",
+      "type": "normal",
+      "power": 80,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 2,
+      "name": "swords-dance",
+      "description": "Raises the user\u2019s Attack by two stages.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 3,
+      "name": "cut",
+      "description": "Inflicts regular damage.",
+      "type": "normal",
+      "power": 50,
+      "accuracy": 95,
+      "damage_class": "physical"
+    },
+    {
+      "id": 4,
+      "name": "bind",
+      "description": "Inflicts regular damage.  For the next 2\u20135 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+      "type": "normal",
+      "power": 15,
+      "accuracy": 85,
+      "damage_class": "physical"
+    },
+    {
+      "id": 5,
+      "name": "vine-whip",
+      "description": "Inflicts regular damage.",
+      "type": "grass",
+      "power": 45,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 6,
+      "name": "headbutt",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
+      "type": "normal",
+      "power": 70,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 7,
+      "name": "tackle",
+      "description": "Inflicts regular damage.",
+      "type": "normal",
+      "power": 40,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 8,
+      "name": "body-slam",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.",
+      "type": "normal",
+      "power": 85,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 9,
+      "name": "take-down",
+      "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+      "type": "normal",
+      "power": 90,
+      "accuracy": 85,
+      "damage_class": "physical"
+    },
+    {
+      "id": 10,
+      "name": "double-edge",
+      "description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+      "type": "normal",
+      "power": 120,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 11,
+      "name": "growl",
+      "description": "Lowers the target\u2019s Attack by one stage.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 12,
+      "name": "strength",
+      "description": "Inflicts regular damage.",
+      "type": "normal",
+      "power": 80,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 13,
+      "name": "mega-drain",
+      "description": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+      "type": "grass",
+      "power": 40,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 14,
+      "name": "leech-seed",
+      "description": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on grass Pok\u00e9mon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has liquid ooze.\n\nrapid spin will remove this effect.\n\nThis effect is passed on by baton pass.",
+      "type": "grass",
+      "power": null,
+      "accuracy": 90,
+      "damage_class": "status"
+    },
+    {
+      "id": 15,
+      "name": "growth",
+      "description": "Raises the user\u2019s Attack and Special Attack by one stage each.  During sunny day, raises both stats by two stages.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 16,
+      "name": "razor-leaf",
+      "description": "Inflicts regular damage.  User\u2019s critical hit rate is one level higher when using this move.",
+      "type": "grass",
+      "power": 55,
+      "accuracy": 95,
+      "damage_class": "physical"
+    },
+    {
+      "id": 17,
+      "name": "solar-beam",
+      "description": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring sunny day, the charge turn is skipped.\n\nDuring hail, rain dance, or sandstorm, power is halved.\n\nThis move cannot be selected by sleep talk.",
+      "type": "grass",
+      "power": 120,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 18,
+      "name": "poison-powder",
+      "description": "Poisons the target.",
+      "type": "poison",
+      "power": null,
+      "accuracy": 75,
+      "damage_class": "status"
+    },
+    {
+      "id": 19,
+      "name": "sleep-powder",
+      "description": "Puts the target to sleep.",
+      "type": "grass",
+      "power": null,
+      "accuracy": 75,
+      "damage_class": "status"
+    },
+    {
+      "id": 20,
+      "name": "petal-dance",
+      "description": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
+      "type": "grass",
+      "power": 120,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 21,
+      "name": "string-shot",
+      "description": "Lowers the target\u2019s Speed by two stages.",
+      "type": "bug",
+      "power": null,
+      "accuracy": 95,
+      "damage_class": "status"
+    },
+    {
+      "id": 22,
+      "name": "toxic",
+      "description": "Badly poisons the target.  Never misses when used by a poison-type Pok\u00e9mon.",
+      "type": "poison",
+      "power": null,
+      "accuracy": 90,
+      "damage_class": "status"
+    },
+    {
+      "id": 23,
+      "name": "rage",
+      "description": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
+      "type": "normal",
+      "power": 20,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 24,
+      "name": "mimic",
+      "description": "This move is replaced by the target\u2019s last successfully used move, and its PP changes to 5.  If the target hasn\u2019t used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome, nor forced by encore.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 25,
+      "name": "double-team",
+      "description": "Raises the user\u2019s evasion by one stage.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 26,
+      "name": "defense-curl",
+      "description": "Raises user\u2019s Defense by one stage.\n\nAfter this move is used, the power of ice ball and rollout are doubled until the user leaves the field.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 27,
+      "name": "light-screen",
+      "description": "Erects a barrier around the user\u2019s side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier.",
+      "type": "psychic",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 28,
+      "name": "reflect",
+      "description": "Erects a barrier around the user\u2019s side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding light clay, the barrier lasts for eight turns.\n\nbrick break or defog used by an opponent will destroy the barrier.",
+      "type": "psychic",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 29,
+      "name": "bide",
+      "description": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pok\u00e9mon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by sleep talk.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "physical"
+    },
+    {
+      "id": 30,
+      "name": "sludge",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
+      "type": "poison",
+      "power": 65,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 31,
+      "name": "skull-bash",
+      "description": "Inflicts regular damage.  Raises the user\u2019s Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by sleep talk.",
+      "type": "normal",
+      "power": 130,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 32,
+      "name": "amnesia",
+      "description": "Raises the user\u2019s Special Defense by two stages.",
+      "type": "psychic",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 33,
+      "name": "flash",
+      "description": "Lowers the target\u2019s accuracy by one stage.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 34,
+      "name": "rest",
+      "description": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early bird.\n\nThis move fails if the Pok\u00e9mon cannot fall asleep due to uproar, insomnia, or vital spirit.  It also fails if the Pok\u00e9mon is at full health or is already asleep.",
+      "type": "psychic",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 76,
+      "name": "venoshock",
+      "description": "Inflicts regular damage.  If the target is poisoned, this move has double power.",
+      "type": "poison",
+      "power": 65,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 77,
+      "name": "acid-spray",
+      "description": "Inflicts regular damage.  Lowers the target\u2019s Special Defense by two stages.",
+      "type": "poison",
+      "power": 40,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 78,
+      "name": "round",
+      "description": "Inflicts regular damage.  If round has already been used this turn, this move\u2019s power is doubled.  After this move is used, any other Pok\u00e9mon using it this turn will immediately do so (in the order they would otherwise act), regardless of Speed or priority.  Pok\u00e9mon using other moves will then continue to act as usual.",
+      "type": "normal",
+      "power": 60,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 79,
+      "name": "echoed-voice",
+      "description": "Inflicts regular damage.  If any friendly Pok\u00e9mon used this move earlier this turn or on the previous turn, that use\u2019s power is added to this move\u2019s power, to a maximum of 200.",
+      "type": "normal",
+      "power": 40,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 35,
+      "name": "substitute",
+      "description": "Transfers 1/4 the user\u2019s max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user\u2019s stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user\u2019s HP still do so; the doll\u2019s HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of smelling salts and wake up slap do not trigger against a doll, even if the Pok\u00e9mon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., avalanche, counter, or a rowap berry.  magic coat still works as normal, even against moves the doll would block.  Opposing Pok\u00e9mon that damage the doll with a leech move like absorb are healed as normal.\n\nIt will also block acupressure, block, the curse effect of curse, dream eater, embargo, flatter, gastro acid, grudge, heal block, leech seed, lock on, mean look, mimic, mind reader, nightmare, pain split, psycho shift, spider web, sketch, swagger, switcheroo, trick, worry seed, and yawn.  A Pok\u00e9mon affected by yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as volt absorb absorbing thunder wave), such moves will not be blocked.\n\nlife orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by pursuit or spikes; however, the doll will block the poison effect of toxic spikes.\n\nThe doll is passed on by baton pass.  It keeps its existing HP, but uses the replacement Pok\u00e9mon\u2019s stats and types for damage calculation.\n\nAll other effects work as normal.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 36,
+      "name": "snore",
+      "description": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
+      "type": "normal",
+      "power": 50,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 37,
+      "name": "curse",
+      "description": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user\u2019s Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move.",
+      "type": "ghost",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 38,
+      "name": "protect",
+      "description": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nlock on, mind reader, and no guard provide a (100 \u2013 accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (fissure, guillotine, horn drill, and sheer cold); those are always blocked by this move.\n\nthunder during rain dance and blizzard during hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* acupressure from an ally\n* curse\u2019s curse effect\n* Delayed damage from doom desire and future sight; however, these moves will be prevented if they are used this turn\n* feint, which will also end this move\u2019s protection after it hits\n* imprison\n* perish song\n* shadow force\n* Moves that merely copy the user, such as transform or psych up\n\nThis move cannot be selected by assist or metronome.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 39,
+      "name": "sludge-bomb",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
+      "type": "poison",
+      "power": 90,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 40,
+      "name": "mud-slap",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target\u2019s accuracy by one stage.",
+      "type": "ground",
+      "power": 20,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 41,
+      "name": "outrage",
+      "description": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
+      "type": "dragon",
+      "power": 120,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 42,
+      "name": "giga-drain",
+      "description": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+      "type": "grass",
+      "power": 75,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 43,
+      "name": "endure",
+      "description": "The user\u2019s HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 44,
+      "name": "charm",
+      "description": "Lowers the target\u2019s Attack by two stages.",
+      "type": "fairy",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 45,
+      "name": "false-swipe",
+      "description": "Inflicts regular damage.  Will not reduce the target\u2019s HP below 1.",
+      "type": "normal",
+      "power": 40,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 46,
+      "name": "swagger",
+      "description": "Raises the target\u2019s Attack by two stages, then confuses it.  If the target\u2019s Attack cannot be raised by two stages, the confusion is not applied.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 85,
+      "damage_class": "status"
+    },
+    {
+      "id": 47,
+      "name": "fury-cutter",
+      "description": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets.",
+      "type": "bug",
+      "power": 40,
+      "accuracy": 95,
+      "damage_class": "physical"
+    },
+    {
+      "id": 48,
+      "name": "attract",
+      "description": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will fail.  If either Pok\u00e9mon leaves the field, this effect ends.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 49,
+      "name": "sleep-talk",
+      "description": "Only usable if the user is sleeping.  Randomly selects and uses one of the user\u2019s other three moves.  Use of the selected move requires and costs 0 PP.\n\nThis move will not select assist, bide, bounce, chatter, copycat, dig, dive, fly, focus punch, me first, metronome, mirror move, shadow force, skull bash, sky attack, sky drop, sleep talk, solar beam, razor wind, or uproar.\n\nIf the selected move requires a recharge turn\u2014i.e., one of blast burn, frenzy plant, giga impact, hydro cannon, hyper beam, roar of time, or rock wrecker\u2014and the user is still sleeping next turn, then it\u2019s forced to use this move again and pay another PP for the recharge turn.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 50,
+      "name": "return",
+      "description": "Inflicts regular damage.  Power increases with happiness, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 51,
+      "name": "frustration",
+      "description": "Inflicts regular damage.  Power increases inversely with happiness, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 52,
+      "name": "safeguard",
+      "description": "Protects Pok\u00e9mon on the user\u2019s side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field.\n\nIf yawn is used while this move is in effect, it will immediately fail.\n\ndefog used by an opponent will end this effect.\n\nThis effect does not prevent the confusion caused by outrage, petal dance, or thrash.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 53,
+      "name": "sweet-scent",
+      "description": "Lowers the target\u2019s evasion by one stage.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 54,
+      "name": "synthesis",
+      "description": "Heals the user for half its max HP.\n\nDuring sunny day, the healing is increased to 2/3 max HP.\n\nDuring hail, rain dance, or sandstorm, the healing is decreased to 1/4 max HP.",
+      "type": "grass",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 80,
+      "name": "grass-pledge",
+      "description": "Inflicts regular damage.  If a friendly Pok\u00e9mon used fire pledge earlier this turn, all opposing Pok\u00e9mon will take 1/8 their max HP in damage at the end of every turn for four turns (including this one).",
+      "type": "grass",
+      "power": 80,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 81,
+      "name": "work-up",
+      "description": "Raises the user\u2019s Attack and Special Attack by one stage each.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 82,
+      "name": "grassy-terrain",
+      "description": "For five turns, heals all Pok\u00e9mon on the ground for 1/16 their max HP each turn and strengthens their grass moves to 1.5\u00d7 their power.\n\nChanges nature power to energy ball.",
+      "type": "grass",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 55,
+      "name": "hidden-power",
+      "description": "Inflicts regular damage.  Power and type are determined by the user\u2019s IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time.",
+      "type": "normal",
+      "power": 60,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 56,
+      "name": "sunny-day",
+      "description": "Changes the weather to sunshine for five turns, during which fire moves inflict 50% extra damage, and water moves inflict half damage.\n\nIf the user is holding heat rock, this effect lasts for eight turns.\n\nPok\u00e9mon cannot become frozen.\n\nthunder has 50% accuracy.\n\nsolar beam skips its charge turn.\n\nmoonlight, morning sun, and synthesis heal 2/3 of the user\u2019s max HP.\n\nPok\u00e9mon with chlorophyll have doubled original Speed.\n\nPok\u00e9mon with forecast become fire.\n\nPok\u00e9mon with leaf guard are not affected by major status effects.\n\nPok\u00e9mon with flower gift change form; every Pok\u00e9mon on their side of the field have their original Attack and Special Attack increased by 50%.\n\nPok\u00e9mon with dry skin lose 1/8 max HP at the end of each turn.\n\nPok\u00e9mon with solar power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+      "type": "fire",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 57,
+      "name": "rock-smash",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target\u2019s Defense by one stage.",
+      "type": "fighting",
+      "power": 40,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 58,
+      "name": "facade",
+      "description": "Inflicts regular damage.  If the user is burned, paralyzed, or poisoned, this move has double power.",
+      "type": "normal",
+      "power": 70,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 59,
+      "name": "nature-power",
+      "description": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | tri attack\nCave                      | rock slide\nDeep water                | hydro pump\nDesert                    | earthquake\nGrass                     | seed bomb\nMountain                  | rock slide\nRoad                      | earthquake\nShallow water             | hydro pump\nSnow                      | blizzard\nTall grass                | seed bomb\nelectric terrain | thunderbolt\ngrassy terrain   | energy ball\nmisty terrain    | moonblast\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | tri attack\nCrystal        | rock slide\nGateway        | hydro pump\nMagma          | rock slide\nMain Street    | tri attack\nNeon           | tri attack\nStargazer      | rock slide\nSunny Park     | seed bomb\nSunset         | earthquake\nWaterfall      | seed bomb\n\nThis move cannot be copied by mirror move.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 60,
+      "name": "helping-hand",
+      "description": "Boosts the power of the target\u2019s moves by 50% until the end of this turn.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 61,
+      "name": "ingrain",
+      "description": "Prevents the user from switching out.  User regains 1/16 of its max HP at the end of every turn.  If the user was immune to ground attacks, it will now take normal damage from them.\n\nroar and whirlwind will not affect the user.  The user cannot use magnet rise.\n\nThe user may still use u turn to leave the field.\n\nThis effect can be passed with baton pass.",
+      "type": "grass",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 62,
+      "name": "knock-off",
+      "description": "Inflicts regular damage.  Target loses its held item.\n\nNeither the user nor the target can recover its item with recycle.\n\nIf the target has multitype or sticky hold, it will take damage but not lose its item.",
+      "type": "dark",
+      "power": 65,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 63,
+      "name": "secret-power",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | Paralyzes target\nCave           | Makes target flinch\nDeep water     | Lowers target\u2019s Attack by one stage\nDesert         | Lowers target\u2019s accuracy by one stage\nGrass          | Puts target to sleep\nMountain       | Makes target flinch\nRoad           | Lowers target\u2019s accuracy by one stage\nShallow water  | Lowers target\u2019s Attack by one stage\nSnow           | Freezes target\nTall grass     | Puts target to sleep\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | Paralyzes target\nCrystal        | Makes target flinch\nGateway        | Lowers target\u2019s Attack by one stage\nMagma          | Makes target flinch\nMain Street    | Paralyzes target\nNeon           | Paralyzes target\nStargazer      | Makes target flinch\nSunny Park     | Puts target to sleep\nSunset         | Lowers target\u2019s accuracy by one stage\nWaterfall      | Puts target to sleep\n",
+      "type": "normal",
+      "power": 70,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 64,
+      "name": "weather-ball",
+      "description": "Inflicts regular damage.  If a weather move is active, this move has double power, and its type becomes the type of the weather move.  shadow sky is typeless for the purposes of this move.",
+      "type": "normal",
+      "power": 50,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 65,
+      "name": "grass-whistle",
+      "description": "Puts the target to sleep.",
+      "type": "grass",
+      "power": null,
+      "accuracy": 55,
+      "damage_class": "status"
+    },
+    {
+      "id": 66,
+      "name": "bullet-seed",
+      "description": "Inflicts regular damage.  Hits 2\u20135 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+      "type": "grass",
+      "power": 25,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 67,
+      "name": "magical-leaf",
+      "description": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+      "type": "grass",
+      "power": 60,
+      "accuracy": null,
+      "damage_class": "special"
+    },
+    {
+      "id": 68,
+      "name": "natural-gift",
+      "description": "Inflicts regular damage.  Power and type are determined by the user\u2019s held berry.  The berry is consumed.  If the user is not holding a berry, this move will fail.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 69,
+      "name": "worry-seed",
+      "description": "Changes the target\u2019s ability to insomnia.\n\nIf the target\u2019s ability is truant or multitype, this move will fail.",
+      "type": "grass",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 70,
+      "name": "seed-bomb",
+      "description": "Inflicts regular damage.",
+      "type": "grass",
+      "power": 80,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 71,
+      "name": "energy-ball",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+      "type": "grass",
+      "power": 90,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 72,
+      "name": "leaf-storm",
+      "description": "Inflicts regular damage, then lowers the user\u2019s Special Attack by two stages.",
+      "type": "grass",
+      "power": 130,
+      "accuracy": 90,
+      "damage_class": "special"
+    },
+    {
+      "id": 73,
+      "name": "power-whip",
+      "description": "Inflicts regular damage.",
+      "type": "grass",
+      "power": 120,
+      "accuracy": 85,
+      "damage_class": "physical"
+    },
+    {
+      "id": 74,
+      "name": "captivate",
+      "description": "Lowers the target\u2019s Special Attack by two stages.  If the user and target are the same gender, or either is genderless, this move will fail.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 75,
+      "name": "grass-knot",
+      "description": "Inflicts regular damage.  Power increases with the target\u2019s weight in kilograms, to a maximum of 120.\n\nTarget\u2019s weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
+      "type": "grass",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 83,
+      "name": "confide",
+      "description": "Lowers the target\u2019s Special Attack by one stage.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 84,
+      "name": "grassy-glide",
+      "description": "Inflicts regular damage.",
+      "type": "grass",
+      "power": 55,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 85,
+      "name": "tera-blast",
+      "description": "No description",
+      "type": "normal",
+      "power": 80,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 86,
+      "name": "trailblaze",
+      "description": "No description",
+      "type": "grass",
+      "power": 50,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 87,
+      "name": "roar",
+      "description": "Switches the target out for another of its trainer\u2019s Pok\u00e9mon selected at random.  Wild battles end immediately.\n\nDoesn\u2019t affect Pok\u00e9mon with suction cups or under the effect of ingrain.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 88,
+      "name": "hyper-beam",
+      "description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+      "type": "normal",
+      "power": 150,
+      "accuracy": 90,
+      "damage_class": "special"
+    },
+    {
+      "id": 89,
+      "name": "earthquake",
+      "description": "Inflicts regular damage.\n\nIf the target is in the first turn of dig, this move will hit with double power.",
+      "type": "ground",
+      "power": 100,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 90,
+      "name": "scary-face",
+      "description": "Lowers the target\u2019s Speed by two stages.",
+      "type": "normal",
+      "power": null,
+      "accuracy": 100,
+      "damage_class": "status"
+    },
+    {
+      "id": 91,
+      "name": "block",
+      "description": "The target cannot switch out normally.  Ignores accuracy and evasion modifiers.  This effect ends when the user leaves the field.\n\nThe target may still escape by using baton pass, u turn, or a shed shell.\n\nBoth the user and the target pass on this effect with baton pass.",
+      "type": "normal",
+      "power": null,
+      "accuracy": null,
+      "damage_class": "status"
+    },
+    {
+      "id": 92,
+      "name": "frenzy-plant",
+      "description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+      "type": "grass",
+      "power": 150,
+      "accuracy": 90,
+      "damage_class": "special"
+    },
+    {
+      "id": 93,
+      "name": "poison-jab",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
+      "type": "poison",
+      "power": 80,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 94,
+      "name": "earth-power",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+      "type": "ground",
+      "power": 90,
+      "accuracy": 100,
+      "damage_class": "special"
+    },
+    {
+      "id": 95,
+      "name": "giga-impact",
+      "description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+      "type": "normal",
+      "power": 150,
+      "accuracy": 90,
+      "damage_class": "physical"
+    },
+    {
+      "id": 96,
+      "name": "rock-climb",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
+      "type": "normal",
+      "power": 90,
+      "accuracy": 85,
+      "damage_class": "physical"
+    },
+    {
+      "id": 97,
+      "name": "bulldoze",
+      "description": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+      "type": "ground",
+      "power": 60,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 98,
+      "name": "petal-blizzard",
+      "description": "Inflicts regular damage.",
+      "type": "grass",
+      "power": 90,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 99,
+      "name": "stomping-tantrum",
+      "description": "Inflicts regular damage.  Power is doubled if the user\u2019s last move failed for any reason (i.e., produced the message \"But it failed!\") or was ineffective due to types.",
+      "type": "ground",
+      "power": 75,
+      "accuracy": 100,
+      "damage_class": "physical"
+    },
+    {
+      "id": 100,
+      "name": "terrain-pulse",
+      "description": "Inflicts regular damage.",
+      "type": "normal",
+      "power": 50,
+      "accuracy": 100,
+      "damage_class": "special"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 1,
+      "name": "overgrow",
+      "description": "When this Pok\u00e9mon has 1/3 or less of its HP remaining, its grass-type moves inflict 1.5\u00d7 as much regular damage."
+    },
+    {
+      "id": 2,
+      "name": "chlorophyll",
+      "description": "This Pok\u00e9mon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
+    }
+  ]
+}
