@@ -25,7 +25,7 @@ db = sessionLocal()
 
 # Configuration
 POKEAPI_BASE_URL = "https://pokeapi.co/api/v2"
-POKEMON_LIMIT = 3  # Quick test with 3 Pokemon
+POKEMON_LIMIT = 2000  # Quick test with 3 Pokemon
 API_TIME_DELAY = 0.1
 
 def fetch_pokemon_list(limit=POKEMON_LIMIT):
@@ -261,10 +261,10 @@ def seed_database():
                 pokemon_data = fetch_pokemon_details(pokemon_name)
                 
                 # Check if already in database
-                # existing = db.query(Pokemon).filter_by(name=pokemon_name).first()
-                # if existing:
-                #     print(f"   ⏭️  {pokemon_name} already exists, skipping...")
-                #     continue
+                existing = db.query(Pokemon).filter_by(name=pokemon_name).first()
+                if existing:
+                    print(f"   ⏭️  {pokemon_name} already exists, skipping...")
+                    continue
                 
                 # Extract basic stats
                 stats = {stat['stat']['name']: stat['base_stat'] for stat in pokemon_data['stats']}
