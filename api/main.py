@@ -1,59 +1,29 @@
-from fastapi import FastAPI, Depends, HTTPException
-from contextlib import asynccontextmanager
+from fastapi import FastAPI, Depends, Query
 from sqlalchemy.orm import Session
-from typing import List
+from typing import List, Optional
 
 from database import get_db, init_db
-from models import Pokemon as PokemonModel
-from schemas import PokemonDetailResponse, PokemonListResponse
+from models import Pokemon as PokemonModel, Type
+from schemas import PokemonListResponse
 
-# Lifespan event handler
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    # Startup: Initialize database
+app = FastAPI(title='Pokedex API')
+
+@app.on_event("startup")
+def startup():
     init_db()
-    print("✅ Database initialized on startup")
-    yield
-    # Shutdown: Cleanup (if needed in future)
-    print("Application shutting down")
 
-app = FastAPI(title="Pokédex API", version="1.0.0", lifespan=lifespan)
-
-# Health check endpoint
-@app.get("/health")
-def health():
-    return {
-        "status": "healthy",
-        "version": "1.0.0",
-    }
-
-# Get all Pokemon (with optional filters)
 @app.get("/pokemon", response_model=List[PokemonListResponse])
-def get_all_pokemon(
-    skip: int = 0,
-    limit: int = 20,
-    db: Session = Depends(get_db)
+def list_pokemon(
+        skip: int = Query(0, ge=0),
+        limit: int = Query(20, ge=1, le=200),
+        type_name: Optional[str] = Query(None, alias="type"),
+        db: Session = Depends(get_db)
 ):
-    """Get a list of all Pokemon with pagination"""
-    pokemon = db.query(PokemonModel).offset(skip).limit(limit).all()
-    return pokemon
+    q = db.query(PokemonModel)
 
-# Get single Pokemon by ID
-@app.get("/pokemon/{pokemon_id}", response_model=PokemonDetailResponse)
-def get_pokemon(pokemon_id: int, db: Session = Depends(get_db)):
-    """Get detailed information about a specific Pokemon"""
-    pokemon = db.query(PokemonModel).filter(PokemonModel.id == pokemon_id).first()
-    if not pokemon:
-        raise HTTPException(status_code=404, detail="Pokemon not found")
-    return pokemon
+    if type_name:
+        # recommended: uses WHERE EXISTS, avoids duplicate rows
+        q = q.filter(PokemonModel.types.any(Type.name == type_name))
 
-# Search Pokemon by name
-@app.get("/pokemon/search/{name}", response_model=List[PokemonListResponse])
-def search_pokemon(name: str, db: Session = Depends(get_db)):
-    """Search Pokemon by name (case-insensitive)"""
-    pokemon = db.query(PokemonModel).filter(
-        PokemonModel.name.ilike(f"%{name}%")
-    ).all()
-    if not pokemon:
-        raise HTTPException(status_code=404, detail="No Pokemon found")
-    return pokemon
+    q = q.offset(skip).limit(limit)
+    return q.all()

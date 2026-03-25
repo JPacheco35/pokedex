@@ -1,5 +1,5 @@
 from pydantic import BaseModel, ConfigDict
-from typing import Optional, List
+from typing import Optional, Dict, List, Any
 
 class TypeResponse(BaseModel):
     id: int
@@ -35,7 +35,7 @@ class PokemonListResponse(BaseModel):
     id: int
     name: str
     generation: int
-    sprites: Optional[List[str]] = None
+    sprites: Optional[Dict[str, Any]] = None  # FIX: any → Any (capital A)
 
     model_config = ConfigDict(from_attributes=True)
 
@@ -57,7 +57,7 @@ class PokemonDetailResponse(BaseModel):
     speed: int
 
     cries: Optional[List[str]] = None
-    sprites: Optional[List[str]] = None
+    sprites: Optional[Dict[str, Any]] = None  # FIX: List[str] → Dict[str, Any] (consistency)
 
     types: List[TypeResponse]
     moves: List[MoveResponse]
