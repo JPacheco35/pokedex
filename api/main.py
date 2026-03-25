@@ -12,6 +12,7 @@ app = FastAPI(title='Pokedex API')
 def startup():
     init_db()
 
+# get pokemon, can filter by type and pagination
 @app.get("/pokemon", response_model=List[PokemonListResponse])
 def list_pokemon(
         skip: int = Query(0, ge=0),
@@ -25,5 +26,6 @@ def list_pokemon(
         # recommended: uses WHERE EXISTS, avoids duplicate rows
         q = q.filter(PokemonModel.types.any(Type.name == type_name))
 
+    q = q.order_by(PokemonModel.id)
     q = q.offset(skip).limit(limit)
     return q.all()

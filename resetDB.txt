@@ -1,0 +1,6 @@
+# Drop the old database
+sudo docker exec -i pokedex_db psql -U pokedex -d template1 -c "DROP DATABASE IF EXISTS pokedex;"
+# Recreate the database
+sudo docker exec -i pokedex_db psql -U pokedex -d template1 -c "CREATE DATABASE pokedex OWNER pokedex;"
+# Import the dump
+sudo docker exec -i pokedex_db psql -U pokedex -d pokedex < dump.sql
